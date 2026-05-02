@@ -200,6 +200,15 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/bin/hdcp1prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp1prov \
     vendor/htc/ocn/proprietary/vendor/bin/hdcp2p2prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp2p2prov \
     vendor/htc/ocn/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
+    vendor/htc/ocn/proprietary/vendor/firmware/cxd224x_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cxd224x_firmware.bin \
+    vendor/htc/ocn/proprietary/product/lib/libnfc-nci-sony.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libnfc-nci-sony.so \
+    vendor/htc/ocn/proprietary/product/lib/libnfc_nci_sony_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libnfc_nci_sony_jni.so \
+    vendor/htc/ocn/proprietary/product/lib64/libnfc-nci-sony.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libnfc-nci-sony.so \
+    vendor/htc/ocn/proprietary/product/lib64/libnfc_nci_sony_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libnfc_nci_sony_jni.so \
+    vendor/htc/ocn/proprietary/vendor/etc/init/android.hardware.nfc@1.1-service.cxd22xx.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.1-service.cxd22xx.rc \
+    vendor/htc/ocn/proprietary/vendor/bin/hw/android.hardware.nfc@1.1-service.cxd22xx:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.1-service.cxd22xx \
+    vendor/htc/ocn/proprietary/vendor/etc/libnfc-cxd22xx.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-cxd22xx.conf \
+    vendor/htc/ocn/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/htc/ocn/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/htc/ocn/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/htc/ocn/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
@@ -402,7 +411,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/htc/ocn/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/htc/ocn/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
-    vendor/htc/ocn/proprietary/vendor/firmware/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn553_fw.so \
     vendor/htc/ocn/proprietary/vendor/firmware/modemuw.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/modemuw.jsn \
     vendor/htc/ocn/proprietary/vendor/firmware/nanohub.full.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nanohub.full.bin \
     vendor/htc/ocn/proprietary/vendor/firmware/napp_list.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/napp_list.cfg \
